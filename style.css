@@ -1,0 +1,57 @@
+
+
+
+
+.container{
+    max-width: 960px;
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 16px;
+    
+
+}
+
+
+
+.gallery-img{
+    background-color:rgb(151, 177, 247);
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.gallery-title{
+    text-align: center;
+
+
+}
+.gallery-text p {
+    font-family: sans-serif;
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+
+    
+
+}
+
+    
+.gallery-heading {
+    margin: 20px  auto;
+    display: flex;
+    max-width: 960px;
+
+}
+    
+
+
